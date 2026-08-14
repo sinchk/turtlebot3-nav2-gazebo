@@ -656,19 +656,6 @@ The current repository represents the **verified classical Nav2 navigation basel
 | Autonomous Navigation | ✅ Working |
 | Obstacle Avoidance | ✅ Working |
 
-### Current Status
-
-> 🟢 **Working simulation with autonomous navigation and obstacle avoidance using ROS 2 Nav2.**
-
----
-
-## 👤 Author
-
-### Ra
-
-**Robotics and AI Engineering**
-
----
 
 ## ⭐ Project Summary
 
