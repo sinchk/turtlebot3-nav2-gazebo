@@ -71,7 +71,7 @@ The robot can be given navigation goals through RViz and autonomously plan and e
                            AMCL
                             │
                            /map
-TECHNOLOGIES:
+##TECHNOLOGIES:
 
 | Component           | Technology         |
 | ------------------- | ------------------ |
@@ -86,7 +86,7 @@ TECHNOLOGIES:
 | Mapping             | SLAM               |
 | Robot Model         | Differential Drive |
 
-📡 Important ROS 2 Interfaces
+##📡 Important ROS 2 Interfaces
 LiDAR
 /scan
 sensor_msgs/msg/LaserScan
@@ -101,7 +101,7 @@ Localization
 geometry_msgs/msg/PoseWithCovarianceStamped
 Navigation
 /navigate_to_pose
-🗺️ Mapping & Localization
+##🗺️ Mapping & Localization
 
 A 2D occupancy-grid map was generated using SLAM and saved for later navigation.
 
@@ -119,7 +119,7 @@ map
  └── odom
       └── base_footprint
            └── base_link
-🧭 Autonomous Navigation
+##🧭 Autonomous Navigation
 
 Nav2 provides the autonomous navigation pipeline, including:
 
@@ -133,7 +133,7 @@ Navigation goals are provided through RViz using the 2D Goal Pose tool.
 
 The robot then plans a path toward the selected goal and navigates through the simulated environment.
 
-📁 Repository Structure
+##📁 Repository Structure
 turtlebot3-nav2-gazebo/
 │
 ├── config/
@@ -149,7 +149,8 @@ turtlebot3-nav2-gazebo/
 ├── docs/
 │
 └── README.md
-🚀 Running the Simulation
+
+##🚀 Running the Simulation
 1. Set the TurtleBot3 model
 export TURTLEBOT3_MODEL=burger
 2. Launch Gazebo
@@ -172,7 +173,7 @@ In RViz:
 
 Nav2 will calculate and execute a path toward the selected goal.
 
-✅ Verified Functionality
+##✅ Verified Functionality
 
 The following components were successfully tested:
 
