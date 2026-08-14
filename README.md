@@ -76,14 +76,15 @@ The robot can be given navigation goals through RViz2 and autonomously plan and 
                           /map
 
 
-🧰 Technologies
-Ubuntu
-ROS 2 Jazzy
-Gazebo
-TurtleBot3 Burger
-Nav2
-AMCL
-RViz2
-2D LiDAR
-SLAM
-Differential Drive
+| Component           | Technology           |
+| ------------------- | -------------------- |
+| Operating System    | `Ubuntu`             |
+| Robotics Middleware | `ROS 2 Jazzy`        |
+| Simulation          | `Gazebo`             |
+| Robot               | `TurtleBot3 Burger`  |
+| Navigation          | `Nav2`               |
+| Localization        | `AMCL`               |
+| Visualization       | `RViz2`              |
+| Range Sensor        | `2D LiDAR`           |
+| Mapping             | `SLAM`               |
+| Drive System        | `Differential Drive` |
